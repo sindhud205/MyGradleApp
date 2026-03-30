@@ -31,8 +31,21 @@ dependencies {
 mainClassName = 'App'
 
 task display{
-doLast{
-println '6D devops class'
+	doLast{
+		println 'Hello BIT Students'
+	}
 }
+
+task display1{
+	doLast{
+		println 'Good Morning!'
+	}
 }
+
+task display2{
+	doLast{
+		println 'Last Statement'
+	}
+}
+
 
